@@ -1,0 +1,89 @@
+
+/* -- DEFAULTS -- */
+
+/*
+ * SKYBLUE: 6CC
+ */
+
+a:visited, a:link, a:active {
+	color: #F00;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #FF0;
+	outline: none;
+}
+
+img {
+	border:0px;
+}
+
+html {
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font-family: arial;
+	color: #000;
+	background: #FFF;
+	margin:0px;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	font-size: 1em;
+}
+
+div, td, a {
+	font-family:arial;
+	text-decoration: none;
+}
+
+#system-message {
+	width:50%;
+	text-align:center;
+	display:block;
+	background:#222;
+	color:#6CC;
+	border:1px solid #6CC;
+	margin:auto;
+	padding:1em;
+	margin-top:2em;
+	margin-bottom:2em;
+	clear:both;
+	font-size:1em;
+}
+
+/* -- HEADER -- */
+
+.header-area {
+	line-height: 2em;
+	letter-spacing:0.5em;
+	padding:2em;
+	background: #EEE;
+	border-bottom:1px solid #555;
+	margin-bottom: 0px;
+}
+
+#body-container {
+	width: 800px;
+	padding: 1em;
+	clear: both;
+	margin: auto;
+	margin-top: 1em;
+	background: #EEE;
+	border: 1px solid #555;
+}
+
+#footer-area {
+	background: #eee;
+	clear: both;
+	margin-top: 1em;
+	padding: 1em;
+	text-align: center;
+	border: 1px solid #555;
+}
+
