@@ -10,7 +10,7 @@ if (!$m->check_auth($_SESSION["username"], $APP)) {
 
 function print_users_table($users) {
 	global $APP;
-	global $s;
+	global $m;
 	?>
 	<table style="border-top:1px solid #555555;" width="100%" cellspacing="0">
 	<tr>
@@ -55,7 +55,7 @@ function print_users_table($users) {
 
 function print_menu() {
 	global $APP;
-	global $s;
+	global $m;
 	?>
 	<div style='text-align:center;font-size:18px;'>
 	<a href="<? print $m->app_link($APP); ?>" style="color:green;">View Users</a> | 
@@ -73,7 +73,7 @@ function print_menu() {
 }
 
 function search($args) {
-	global $s;
+	global $m;
 	$result = $m->dbiquery("SELECT * FROM users;");
 	$retval = array();
 	while($row = mysql_fetch_assoc($result)) {
@@ -91,7 +91,7 @@ function search($args) {
 
 function print_group_registration_form() {
 	global $APP;
-	global $s;
+	global $m;
 	?>
 	<br>
 	<center>

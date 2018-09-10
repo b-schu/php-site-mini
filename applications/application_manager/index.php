@@ -10,7 +10,7 @@ $m->print_header();
 
 function print_menu() {
 	global $APP;
-	global $s;
+	global $m;
 	?>
 	<h2>Application Manager</h2>
 	| <a href="<? print $m->app_link($APP); ?>&action=view" style="color:black">View Applications</a> |
